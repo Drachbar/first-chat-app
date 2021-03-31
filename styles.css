@@ -1,10 +1,13 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+}
+
+text {
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  padding: 10px;
   background: #f1f1f1;
 }
 
@@ -16,6 +19,7 @@ body {
 
 .header h1 {
   font-size: 50px;
+  padding: 15px;
 }
 
 .topnav {
@@ -37,7 +41,12 @@ body {
   color: rgb(37, 37, 37);
 }
 
+.spacing {
+  padding: 8px;
+}
+
 .textcolumn {
+  padding: 8px;
   margin: 0 auto;
   width: 75%;
   background-color: #646464;
