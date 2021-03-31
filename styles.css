@@ -1,8 +1,46 @@
-img {
-  width: 200px;
-  border-radius: 100px;
+* {
+  box-sizing: border-box;
 }
 
-.username {
-  font-weight: bold;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+.header {
+  background-color: rgb(91, 161, 253);
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.topnav {
+  background-color: rgb(37, 37, 37);
+  overflow: hidden;
+}
+
+.topnav a {
+  color: #d3d3d3;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #d3d3d3;
+  color: rgb(37, 37, 37);
+}
+
+.textcolumn {
+  margin: 0 auto;
+  width: 75%;
+  background-color: #646464;
+  color: #f1f1f1;
+  min-height: 250px;
 }
