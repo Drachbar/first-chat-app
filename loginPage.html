@@ -22,10 +22,30 @@
     <div class="textcolumn">
       <h1>Logga in</h1>
       <form action="">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" /> <br /><br />
-        <label for="pwd">Password:</label>
-        <input type="password" id="pwd" name="pwd" minlength="6" /><br /><br />
+        <table>
+          <tr>
+            <td>
+              <label for="email">Epost:</label>
+            </td>
+            <td>
+              <input type="email" id="email" name="email" placeholder="Epost" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="pwd">Lösenord:</label>
+            </td>
+            <td>
+              <input
+                type="password"
+                id="pwd"
+                name="pwd"
+                minlength="6"
+                placeholder="Lösenord"
+              />
+            </td>
+          </tr>
+        </table>
         <input type="submit" />
       </form>
     </div>
